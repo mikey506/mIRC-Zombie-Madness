@@ -1,13 +1,11 @@
-BATTLE ARENA BOT 
+BATTLE ARENA BOT Fork - Zombie Madness Mod
 --------------
 
 ## ABOUT
 
-Battle Arena is a text game written in mIRC's scripting language.  This is a game of good vs evil and was originally inspired heavily by the hit PS2/PS3 series "Devil May Cry".  The gist is that players will join to kill monsters and bosses while gaining new weapons, skills and techniques. Over time the bot has expanded and has become a light RPG with stats, NPCs and special boss battles.
+Zombie Madness Mod is a text game based on the popular Battle Arena Bot. This mod is under construction and in it's early stages but will be created for the entertainment of a Newsgroup Network in Canada which will allow localized game play. Where Battle Arena Bot is designed to work in one channel one monster at a time I hope with time it can be altered to allow mutiple monsters in mutiple channels, each channel will be for each city within this province. There is much work to be done though.
 
-As for the main purpose of the game.. well, the only real purpose is to see how long of a winning streak players can achieve.  The game is designed so that people can hop in and out easily at nearly any time, just as a way to basically kill some boredom.  There is no ultimate goal to obtain or defend.
-
-Once set up the game is entirely automatic and does not need anyone to run it.
+Battle Areana Original wiki guide (We will generate our own guide with time as features are dropped and added)
 
 A full in-depth guide with commands and more in-depth information can be found on the Battle Arena wiki:  http://battlearena.heliohost.org/doku.php?id=start
 
