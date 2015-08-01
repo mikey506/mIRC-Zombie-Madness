@@ -117,7 +117,7 @@ type=Human
 TechLearn=false
 
 ; Size is the size of the monster. Small/Medium/Large
-size=
+size=Medium
 
 
 [Status]
@@ -154,7 +154,7 @@ stun=no
 MPRegenerating=no
 
 [Weapons]
-Equipped=monsterweaponname
+Equipped=fists
 monsterweaponname=1
 
 
