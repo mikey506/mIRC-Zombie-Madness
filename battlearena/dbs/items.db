@@ -9,7 +9,7 @@ Keys=BlueKey.BrownKey.RedKey.OrangeKey.GreenKey.GoldKey.BrownKey.BlueKey.RedKey.
 =========================
 HEALING ITEMS
 =========================
-[GM-THC_2MG]
+[GMTHC2]
 Type=heal
 Target=Single
 Amount=50
@@ -21,7 +21,7 @@ FullbringTarget=AOE
 FullbringAmount=20
 Fullbringdesc=throws 2 MG of GM-THC into the air causing regeneration for everyone around.
 
-[GM-THC_4MG]
+[GMHC4]
 Type=heal
 Target=Single
 Amount=200
@@ -33,7 +33,7 @@ FullbringTarget=AOE
 FullbringAmount=80
 Fullbringdesc=throws 4 MG of GM-THC into the air causing regeneration for everyone around.
 
-[GM-THC_8MG]
+[GMTHC8]
 Type=heal
 Target=Single
 Amount=420
