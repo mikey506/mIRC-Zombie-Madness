@@ -7,11 +7,8 @@
 Bloody_Bones=Potion
 
 ; Monsters
-Zombie=orbs
-Maniac=orbs
-Pyro=orbs
-Cyberman=orbs
-Undead_Monk=orbs
-ZombieRockStar=orbs
-ZombieSalesman=orbs
-Reaver=orbs
+Maniac=orbs.orbs.orbs
+Delusional_Maniac=GMTHC2.GMTHC4.GMTHC2.GMTHC2
+RottenZombie=GMTHC2.GMTHC4.GMTHC2.GMTHC2
+Mystery_Chest=GMTHC2.GMTHC4.GMTHC2.GMTHC2
+HalfZombie=GMTHC2.GMTHC4.GMTHC2.GMTHC2
