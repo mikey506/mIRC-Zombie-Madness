@@ -81,7 +81,7 @@ Created=N/a
 ; TimeOfDay=
 ;
 ; Can the monster taunt?   Assumed to be true if blank.
-; CANTAUNT=true/false
+CANTAUNT=false
 ;
 ; TAUNTFILE is an optional taunt file if you want your boss to have unique taunts.  If blank it will use the default taunts.txt
 ; TAUNTFILE=
