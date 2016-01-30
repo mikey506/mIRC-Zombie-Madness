@@ -159,6 +159,17 @@ BasePower=35
 Upgrade=200
 2Handed=true
 
+[Glock19]
+Cost=70
+Type=Bow
+Info=Basic Handgun, great for pointing and shooting.
+Abilities=FlamingArrow
+Element=None
+Hits=$rand(1,5)
+BasePower=35
+Upgrade=200
+2Handed=true
+
 [AK47]
 Cost=550
 Type=Rifle
