@@ -144,8 +144,8 @@ Type=Gun
 Info=A powerful revolver that fires .357 rounds, dropping enemies gracefully
 Abilities=RapidShot
 Element=None
-Hits=2
-BasePower=60
+Hits=$rand(2,3)
+BasePower=100
 Upgrade=300
 
 [ShadowCrossBow]
@@ -170,6 +170,28 @@ BasePower=45
 Upgrade=1000
 2Handed=true
 
+[UZI]
+Cost=650
+Type=Rifle
+Info=A full auto assault rifle.
+Abilities=Rainstorm
+Element=None
+Hits=$rand(4,6)
+BasePower=60
+Upgrade=1000
+2Handed=true
+
+[MP5]
+Cost=450
+Type=Rifle
+Info=A full auto assault rifle.
+Abilities=Rainstorm
+Element=None
+Hits=$rand(4,6)
+BasePower=60
+Upgrade=1000
+2Handed=true
+
 [Cheap_Katana]
 Cost=20
 Type=Katana
@@ -180,7 +202,6 @@ Hits=$rand(1,2)
 BasePower=15
 Upgrade=100
 2Handed=true
-
 
 [AntiVirusInjection]
 Cost=3
@@ -199,7 +220,7 @@ Info=A basic scythe that has a large black edge and a black and dark grey handle
 Abilities=ShadowOfDeath
 Element=None
 Hits=$rand(1,2)
-BasePower=30
+BasePower=250
 Upgrade=250
 2Handed=true
 
@@ -230,7 +251,7 @@ Info=Sword like weapon, very effective and widly used to destroy the undead.
 Abilities=none
 Element=none
 Hits=$rand(1,2)
-BasePower=10
+BasePower=40
 Upgrade=40
 
 
