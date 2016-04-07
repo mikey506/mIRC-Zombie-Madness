@@ -1228,7 +1228,6 @@ alias battle_rage_warning {
 alias battle_rage {
   ; When this alias is called all the monsters still alive in battle will become much harder to kill as all of their stats will be increased
   ; The idea is to make it so battles don't last forever (someone can't stall for 2 hours on one battle).  Players need to kill monsters fast.
-  return
   if (%battle.type = defendoutpost) { return }
 
   set %battle.rage.darkness on
