@@ -187,6 +187,7 @@ alliednotes.lock=false
 
 [Weapons]
 Equipped=Glock19
+AK47=1
 Fists=1
 Glock19=1
 
@@ -208,7 +209,12 @@ DoublePunch=1
 
 
 [Item_Amount]
-GMTHC4=5
+GMTHC4=10
+Cocktail=4
+Flash_Grenade=2
+Holy_Water=3
+Beer=12
+Coffee=2
 
 [scoreboard]
 score=0
