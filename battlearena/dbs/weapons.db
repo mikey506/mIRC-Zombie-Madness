@@ -57,7 +57,8 @@ CanCounter=
 HandToHand=BrassKnuckles
 Swords=Machete
 Whips=
-Guns=Magnum
+Guns=Magnum.Glock19
+Rifles=AK47.UZI.MP5
 Mech=
 Bows=RobinsBow.ShigetoBow.LamianKamen.Yoichinoyumi.Gandiva
 Katanas=Cheap_Katana
@@ -97,7 +98,7 @@ Info=A pocket Knife sharpened for splitting and stabbing dead flesh
 Abilities=none
 Element=none
 Hits=3
-BasePower=5
+BasePower=90
 Upgrade=45
 IgnoreDefense=15
 HurtEthereal=false
@@ -113,7 +114,7 @@ Info=Two pocket Knifes sharpened for splitting and stabbing dead flesh
 Abilities=none
 Element=none
 Hits=4
-BasePower=15
+BasePower=130
 Upgrade=45
 IgnoreDefense=15
 HurtEthereal=false
@@ -129,7 +130,7 @@ Info=Heavy Axe made for splitting wood... or some undead skulls
 Abilities=none
 Element=none
 Hits=$rand(1,2)
-BasePower=35
+BasePower=170
 Upgrade=80
 IgnoreDefense=25
 HurtEthereal=false
@@ -145,7 +146,7 @@ Info=A powerful revolver that fires .357 rounds, dropping enemies gracefully
 Abilities=RapidShot.HotShotII.ChargedShotII.BlastShotII
 Element=None
 Hits=$rand(2,3)
-BasePower=100
+BasePower=250
 Upgrade=300
 
 [ShadowCrossBow]
@@ -155,7 +156,7 @@ Info=Stealthy, this cross bow packs a punch and can easily take down most zombie
 Abilities=FlamingArrow.Wildfire.ChargedShot
 Element=None
 Hits=$rand(1,2)
-BasePower=35
+BasePower=200
 Upgrade=200
 2Handed=true
 
@@ -167,7 +168,7 @@ Abilities=Coronach.SlugShot.BlastShot.HotShot
 Element=None
 Hits=$rand(1,5)
 BasePower=35
-Upgrade=200
+Upgrade=170
 2Handed=true
 
 [AK47]
@@ -177,7 +178,7 @@ Info=A selective-fire assault rifle that is black and light brown in color.
 Abilities=Rainstorm.BlastShot.Detonator.ChargedShot
 Element=None
 Hits=$rand(4,6)
-BasePower=45
+BasePower=170
 Upgrade=1000
 2Handed=true
 
@@ -188,7 +189,7 @@ Info=A full auto assault rifle.
 Abilities=Rainstorm.LeadenSalute.LastStand.RapidShot
 Element=None
 Hits=$rand(4,6)
-BasePower=60
+BasePower=140
 Upgrade=1000
 2Handed=true
 
@@ -199,7 +200,7 @@ Info=A full auto assault rifle.
 Abilities=Rainstorm.LeadenSalute.LastStand.RapidShot
 Element=None
 Hits=$rand(4,6)
-BasePower=60
+BasePower=180
 Upgrade=1000
 2Handed=true
 
@@ -210,7 +211,7 @@ Info=Katana replica ordered from china before hell broke loose, it will do the j
 Abilities=A5.E5.D5.C5
 Element=none
 Hits=$rand(1,2)
-BasePower=15
+BasePower=300
 Upgrade=100
 2Handed=true
 
@@ -231,7 +232,7 @@ Info=A basic scythe that has a large black edge and a black and dark grey handle
 Abilities=ShadowOfDeath
 Element=None
 Hits=$rand(1,2)
-BasePower=250
+BasePower=450
 Upgrade=250
 2Handed=true
 
@@ -242,7 +243,7 @@ Info=A metal shield made of scrap metal lying around
 Hits=0
 BasePower=100
 Upgrade=0
-BlockChance=20
+BlockChance=50
 AbsorbAmount=2
 
 [Riot_Shield]
