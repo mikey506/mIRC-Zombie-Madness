@@ -1,5 +1,5 @@
 [BaseStats]
-Hp=150
+Hp=250
 Tp=20
 Str=5
 Def=5
@@ -10,7 +10,7 @@ Name=
 
 
 [Battle]
-Hp=150
+Hp=250
 Tp=20
 Str=5
 Def=5
@@ -190,6 +190,7 @@ Equipped=Glock19
 AK47=1
 Fists=1
 Glock19=1
+Cheap_Katana=1
 
 [Skills]
 
