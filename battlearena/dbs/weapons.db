@@ -236,6 +236,17 @@ BasePower=450
 Upgrade=250
 2Handed=true
 
+[CryingReaver]
+Cost=150
+Type=Scythe
+Info=A 2 handed scythe that carries with it the souls of all who it has slayed, this weapon is not one to be taken lightly.
+Abilities=ShadowOfDeath
+Element=None
+Hits=$rand(1,2)
+BasePower=650
+Upgrade=3000
+2Handed=true
+
 [Homemade_Shield]
 Cost=5
 Type=shield
