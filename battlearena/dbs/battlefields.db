@@ -97,6 +97,12 @@ NumberOfEvents=3
 scavenge=Slurm.Ectoplasm
 limitations=no-trusts.no-summons.no-mech
 
+[Atholville Mall]
+weather=calm.bright.gloomy.rainy.stormy.snowy.windy.hot.dry
+NumberOfEvents=0
+scavenge=Potion.VitalStar.X-Potion.Shihei.Sokubaku.Topaz.Zircon.Ink.Paper.EarthSphere
+limitations=
+
 event1=damage
 event1Chance=90
 Event1Desc=Drops of acid leak from the pipes in the ceiling and rain down upon %real.name $+ !
