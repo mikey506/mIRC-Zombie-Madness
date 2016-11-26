@@ -162,7 +162,7 @@ Upgrade=200
 
 [Glock19]
 Cost=70
-Type=Bow
+Type=Gun
 Info=Basic Handgun, great for pointing and shooting.
 Abilities=Coronach.SlugShot.BlastShot.HotShot
 Element=None
