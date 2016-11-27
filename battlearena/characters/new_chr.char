@@ -33,7 +33,7 @@ Rage=needs to set a rage desc by typing !ragedesc <desc>
 [Stuff]
 ; currencies
 RedOrbs=0
-BlackOrbs=1
+BlackOrbs=3
 ShopLevel=1.0
 RedOrbsSpent=0
 BlackOrbsSpent=0
