@@ -97,13 +97,13 @@ Event1Desc=%real.name trips and falls into an open grave! Ow!
 Event1Target=random
 event1Amount=$rand(50,100)
 
-[Atholville Mill]
+[Atholville Mall]
 weather=gloomy
 NumberOfEvents=3
 scavenge=Slurm.Ectoplasm
 limitations=no-trusts.no-summons.no-mech
 
-[Atholville Mall]
+[Atholville Mill]
 weather=calm.bright.gloomy.rainy.stormy.snowy.windy.hot.dry
 NumberOfEvents=0
 scavenge=Potion.VitalStar.X-Potion.Shihei.Sokubaku.Topaz.Zircon.Ink.Paper.EarthSphere
@@ -139,4 +139,29 @@ event1chance=10
 event1Desc=A large cow wanders into the battlefield and gives off a loud "MOOOOOOOOOOOO!" before wandering off, leaving %real.name rather annoyed at the wasted time.
 event1target=random
 event1amount=0
+
+[Zennabis Factory]
+weather=bright.hot.dry
+NumberOfEvents=0
+scavenge=
+limitations=
+
+event1=damage
+event1Chance=90
+Event1Desc=Drops of Infected Cannabis goo fall from the pipes in the ceiling and rain down upon %real.name $+ ! ... %real.name feels quite high but sick at the same time.
+Event1Target=random
+event1Amount=$rand(50,100)
+
+event2=statusonly
+event2statusType=annoyed
+event2Chance=20
+Event2Desc=A group of hippies smoking joints walk past the battlefield talking about politics. An odd smell is left behind as they leave, no harm done really, just really odd and annoying.
+Event2Target=random
+Event2Amount=0
+
+event3=heal
+event3Chance=10
+Event2Desc=THC Water rains from the ceilings and heals all of the heros in the Battlefield.
+Event3Target=players
+Event3Amount=$rand(500,900)
 
