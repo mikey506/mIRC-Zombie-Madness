@@ -11,29 +11,15 @@ A full in-depth guide with commands and more in-depth information can be found o
 
 Modifications So far:
 
-Battlefields Added
+## Battlefields Added
 
-Downtown Water Street
-Cemetary Road
-Atholville Mill
-Atholville Mall
-RaspberryHill Hobby Farm
+Downtown Water Street / Cemetary Road / Atholville Mill / Atholville Mall / RaspberryHill Hobby Farm
+
 Zennabis Factory
 
-Monsters added:
+## Monsters added:
 
-BobTheKiller.char
-Delusional_Maniac.char	
-HalfZombie.char	
-Maniac.char	
-Orb_Fountain.char	
-RottenBlogger.char
-RottenZombie.char	U
-SickZombie.char
-WeakZombie.char	
-WeakZombie2.char
-WeakZombie3.char
-ZombiePitBull.char
+BobTheKiller / Delusional_Maniac / HalfZombie / Maniac / Orb_Fountain / RottenBlogger / RottenZombie	/ SickZombie /  WeakZombie / WeakZombie2 / WeakZombie3 / ZombiePitBull 
 
 ## SETUP
 
