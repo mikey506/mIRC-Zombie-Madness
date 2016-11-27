@@ -22,7 +22,7 @@ Zennabis Factory
 
 Monsters added:
 
-BobTheKiller.char	
+BobTheKiller.char
 Delusional_Maniac.char	
 HalfZombie.char	
 Maniac.char	
