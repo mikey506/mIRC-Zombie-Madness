@@ -19,7 +19,12 @@ Downtown Water Street / Cemetary Road / Atholville Mill / Atholville Mall / Rasp
 
 BobTheKiller / Delusional_Maniac / HalfZombie / Maniac / Orb_Fountain / RottenBlogger / RottenZombie	/ SickZombie /  WeakZombie / WeakZombie2 / WeakZombie3 / ZombiePitBull 
 
-## SETUP
+## Weapons Added:
+
+BrassKnuckles / Machete / Cheap_Katana /  Magnum / Glock19 / AK47 / UZI MP5 / DeathScythe / CryingReaver / Wood_Splitter / PocketKnife / DualPocketKnifes
+
+
+### SETUP
 
 Getting it set up is easy assuming you unpack the zip in a good location on your computer.
 
