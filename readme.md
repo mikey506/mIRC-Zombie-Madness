@@ -13,9 +13,7 @@ Modifications So far:
 
 ## Battlefields Added
 
-Downtown Water Street / Cemetary Road / Atholville Mill / Atholville Mall / RaspberryHill Hobby Farm
-
-Zennabis Factory
+Downtown Water Street / Cemetary Road / Atholville Mill / Atholville Mall / RaspberryHill Hobby Farm / Zennabis Factory
 
 ## Monsters added:
 
