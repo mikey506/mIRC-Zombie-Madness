@@ -75,9 +75,15 @@ into battlefields.lst
 
 [Downtown Water Street]
 weather=calm.bright.gloomy.rainy.stormy.snowy.windy.hot.dry
-NumberOfEvents=0
+NumberOfEvents=1
 scavenge=Potion.VitalStar.X-Potion.Shihei.Sokubaku.Topaz.Zircon.Ink.Paper.EarthSphere
 limitations=
+
+event1=damage
+event1Chance=40
+Event1Desc=%real.name gets hit by a speeding Honda Civic (That sounds like a lawn mower) with a Quebec Liscense plate. 
+Event1Target=random
+event1Amount=$rand(50,100)
 
 [Cemetary Road]
 weather=calm.gloomy.rainy.dry.snowy.stormy
