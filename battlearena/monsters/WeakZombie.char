@@ -1,10 +1,10 @@
 [BaseStats]
 Hp=50
 Tp=50
-Str=5
-Def=5
-Int=5
-Spd=5
+Str=1
+Def=2
+Int=1
+Spd=3
 Name=Weak Rotten Zombie
 IgnitionGauge=2
 
@@ -12,10 +12,10 @@ IgnitionGauge=2
 [Battle]
 Hp=50
 Tp=50
-Str=10
-Def=10
-Int=10
-Spd=10
+Str=1
+Def=2
+Int=1
+Spd=3
 Status=alive
 IgnitionGauge=2
 
