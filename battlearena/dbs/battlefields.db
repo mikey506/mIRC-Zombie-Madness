@@ -76,7 +76,7 @@ into battlefields.lst
 [Downtown Water Street]
 weather=calm.bright.gloomy.rainy.stormy.snowy.windy.hot.dry
 NumberOfEvents=1
-scavenge=Potion.VitalStar.X-Potion.Shihei.Sokubaku.Topaz.Zircon.Ink.Paper.EarthSphere
+scavenge=
 limitations=
 
 event1=damage
@@ -88,7 +88,7 @@ event1Amount=$rand(50,100)
 [Cemetary Road]
 weather=calm.gloomy.rainy.dry.snowy.stormy
 NumberOfEvents=1
-scavenge=Onyx.Red_Fang.Thunder_Orb.Stop_watch
+scavenge=
 limitations=no-tech
 
 event1=damage
@@ -100,7 +100,7 @@ event1Amount=$rand(50,100)
 [Atholville Mall]
 weather=gloomy
 NumberOfEvents=3
-scavenge=Slurm.Ectoplasm
+scavenge=
 limitations=no-trusts.no-summons.no-mech
 
 [Atholville Mill]
@@ -110,20 +110,20 @@ scavenge=Potion.VitalStar.X-Potion.Shihei.Sokubaku.Topaz.Zircon.Ink.Paper.EarthS
 limitations=
 
 event1=damage
-event1Chance=90
+event1Chance=30
 Event1Desc=Drops of acid leak from the pipes in the ceiling and rain down upon %real.name $+ !
 Event1Target=random
 event1Amount=$rand(50,100)
 
 event2=statusonly
 event2statusType=annoyed
-event2Chance=20
+event2Chance=30
 Event2Desc=Strange orange-looking people named Grunka Lunkas come out and began to sing.  It merely annoys %real.name more than doing any harm.
 Event2Target=random
 Event2Amount=0
 
 event3=heal
-event3Chance=10
+event3Chance=20
 Event3Desc=Slurms McKenzie, a crazy party worm wearing sunglasses over it's tiny little slug-like eyes, pops out of nowhere and yells "WHIMMY! WHAM WHAM WOZZLE!" and begins to dance and play some music before leaving a slimey trail of goo behind him as he leaves. His crazy partying has healed all of the heroes.
 Event3Target=players
 Event3Amount=$rand(500,900)
@@ -135,8 +135,15 @@ scavenge=Potion.Topaz.Milk
 
 event1=statusonly
 event1statusType=annoyed
-event1chance=10
+event1chance=30
 event1Desc=A large cow wanders into the battlefield and gives off a loud "MOOOOOOOOOOOO!" before wandering off, leaving %real.name rather annoyed at the wasted time.
+event1target=random
+event1amount=0
+
+event1=statusonly
+event1statusType=annoyed
+event1chance=30
+event1Desc=Mutant chickens come out of ****ing nowhere and start freaking out then take off into the bushes, noone was hurt but really annoying.
 event1target=random
 event1amount=0
 
