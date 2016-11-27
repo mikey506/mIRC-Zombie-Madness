@@ -4,10 +4,10 @@
 [drops]
 
 ; Bosses
-Bloody_Bones=UZI.Cheap_Katana.MP5
+Bloody_Bones=Flash_Grenade.Holy_Water
 
 ; Monsters
-Maniac=orbs.orbs.orbs
+Maniac=Holy_Water
 Delusional_Maniac=GMTHC2.GMTHC4.GMTHC2.GMTHC2
 RottenZombie=GMTHC2.GMTHC4.GMTHC2.GMTHC2
 Mystery_Chest=GMTHC2.GMTHC4.GMTHC2.GMTHC2
