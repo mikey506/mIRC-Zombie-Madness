@@ -9,6 +9,31 @@ Battle Areana Original wiki guide (We will generate our own guide with time as f
 
 A full in-depth guide with commands and more in-depth information can be found on the Battle Arena wiki:  http://battlearena.heliohost.org/doku.php?id=start
 
+Modifications So far:
+
+Battlefields Added
+
+Downtown Water Street
+Cemetary Road
+Atholville Mill
+Atholville Mall
+RaspberryHill Hobby Farm
+Zennabis Factory
+
+Monsters added:
+
+BobTheKiller.char	
+Delusional_Maniac.char	
+HalfZombie.char	
+Maniac.char	
+Orb_Fountain.char	
+RottenBlogger.char
+RottenZombie.char	U
+SickZombie.char
+WeakZombie.char	
+WeakZombie2.char
+WeakZombie3.char
+ZombiePitBull.char
 
 ## SETUP
 
