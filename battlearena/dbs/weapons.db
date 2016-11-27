@@ -76,7 +76,7 @@ Medium=
 Large=Riot_Shield
 
 [BrassKnuckles]
-Cost=5
+Cost=1
 Type=HandToHand
 Info=These brass knuckles will give any punch that extra oomph
 Abilities=none
@@ -92,7 +92,7 @@ CanShieldReflect=false
 CanCounter=true
 
 [PocketKnife]
-Cost=10
+Cost=1
 Type=Daggers
 Info=A pocket Knife sharpened for splitting and stabbing dead flesh
 Abilities=none
@@ -108,7 +108,7 @@ CanShieldReflect=false
 CanCounter=true
 
 [DualPocketKnifes]
-Cost=25
+Cost=2
 Type=HandToHand
 Info=Two pocket Knifes sharpened for splitting and stabbing dead flesh
 Abilities=none
@@ -124,7 +124,7 @@ CanShieldReflect=false
 CanCounter=true
 
 [Wood_Splitter]
-Cost=50
+Cost=1
 Type=Axes
 Info=Heavy Axe made for splitting wood... or some undead skulls
 Abilities=none
@@ -140,7 +140,7 @@ CanShieldReflect=false
 CanCounter=false
 
 [Magnum]
-Cost=80
+Cost=3
 Type=Gun
 Info=A powerful revolver that fires .357 rounds, dropping enemies gracefully
 Abilities=RapidShot.HotShotII.ChargedShotII.BlastShotII
@@ -150,7 +150,7 @@ BasePower=250
 Upgrade=300
 
 [ShadowCrossBow]
-Cost=70
+Cost=3
 Type=Bow
 Info=Stealthy, this cross bow packs a punch and can easily take down most zombies.
 Abilities=FlamingArrow.Wildfire.ChargedShot
@@ -161,7 +161,7 @@ Upgrade=200
 2Handed=true
 
 [Glock19]
-Cost=70
+Cost=2
 Type=Gun
 Info=Basic Handgun, great for pointing and shooting.
 Abilities=Coronach.SlugShot.BlastShot.HotShot
@@ -172,7 +172,7 @@ Upgrade=170
 2Handed=true
 
 [AK47]
-Cost=550
+Cost=5
 Type=Rifle
 Info=A selective-fire assault rifle that is black and light brown in color.
 Abilities=Rainstorm.BlastShot.Detonator.ChargedShot
@@ -183,7 +183,7 @@ Upgrade=1000
 2Handed=true
 
 [UZI]
-Cost=650
+Cost=5
 Type=Rifle
 Info=A full auto assault rifle.
 Abilities=Rainstorm.LeadenSalute.LastStand.RapidShot
@@ -194,7 +194,7 @@ Upgrade=1000
 2Handed=true
 
 [MP5]
-Cost=450
+Cost=5
 Type=Rifle
 Info=A full auto assault rifle.
 Abilities=Rainstorm.LeadenSalute.LastStand.RapidShot
@@ -205,28 +205,19 @@ Upgrade=1000
 2Handed=true
 
 [Cheap_Katana]
-Cost=20
+Cost=5
 Type=Katana
 Info=Katana replica ordered from china before hell broke loose, it will do the job, but lacks in durability.
 Abilities=A5.E5.D5.C5
 Element=none
-Hits=$rand(1,2)
-BasePower=300
+Hits=$rand(1,3)
+BasePower=200
 Upgrade=100
 2Handed=true
 
-[AntiVirusInjection]
-Cost=3
-Type=Tech
-Info=These little needles contain an anti virus that acts like poison to those infected with the virus. This virus is designed to destroy them, not cure them.
-Abilities=Cure.Poison
-Element=none
-Hits=1
-BasePower=10
-Upgrade=100
 
 [DeathScythe]
-Cost=50
+Cost=7
 Type=Scythe
 Info=A basic scythe that has a large black edge and a black and dark grey handle, this weapon has a dark energy surrounding it.
 Abilities=ShadowOfDeath
@@ -237,7 +228,7 @@ Upgrade=250
 2Handed=true
 
 [CryingReaver]
-Cost=150
+Cost=10
 Type=Scythe
 Info=A 2 handed scythe that carries with it the souls of all who it has slayed, this weapon is not one to be taken lightly.
 Abilities=ShadowOfDeath
@@ -248,7 +239,7 @@ Upgrade=3000
 2Handed=true
 
 [Homemade_Shield]
-Cost=5
+Cost=1
 Type=shield
 Info=A metal shield made of scrap metal lying around
 Hits=0
@@ -258,7 +249,7 @@ BlockChance=50
 AbsorbAmount=2
 
 [Riot_Shield]
-Cost=65
+Cost=2
 Type=shield
 Info=Riot Shield previously used by RCMP & Millitary personel
 Hits=0
@@ -268,13 +259,13 @@ BlockChance=20
 AbsorbAmount=30
 
 [Machete]
-Cost=10
+Cost=1
 Type=Sword
 Info=Sword like weapon, very effective and widly used to destroy the undead.
 Abilities=none
 Element=none
 Hits=$rand(1,2)
-BasePower=40
+BasePower=100
 Upgrade=40
 
 
