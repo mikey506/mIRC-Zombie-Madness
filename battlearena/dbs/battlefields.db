@@ -172,3 +172,23 @@ Event2Desc=THC Water rains from the ceilings and heals all of the heros in the B
 Event3Target=players
 Event3Amount=$rand(500,900)
 
+[Sugarloaf Park Lodge]
+weather=calm.bright.windy.hot.dry
+NumberOfEvents=1
+scavenge=
+
+event1=damage
+event1Chance=90
+Event1Desc=%real.name gets attacked by a flock of Zombie Geese from the pond $+ ! ... %real.name takes a beaking but gets back up.
+Event1Target=random
+event1Amount=$rand(50,100)
+
+[Tide Head Beach]
+weather=calm.bright.gloomy.rainy.stormy.windy.hot.dry
+NumberOfEvents=1
+scavenge=
+
+[Sugarloaf Mountain]
+weather=bright.hot.gloomy
+NumberOfEvents=0
+scavenge=
