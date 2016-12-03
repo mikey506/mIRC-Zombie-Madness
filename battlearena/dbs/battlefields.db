@@ -103,6 +103,12 @@ NumberOfEvents=3
 scavenge=
 limitations=no-trusts.no-summons.no-mech
 
+event1=damage
+event1Chance=20
+Event1Desc=An old lady with half her head missing reaches into her head and rips off a chunk of what can only be assumed is a brain, she then throws it at %real.name $+ 's face, damn thats nasty.
+Event1Target=random
+event1Amount=$rand(20,50)
+
 [Atholville Mill]
 weather=calm.bright.gloomy.rainy.stormy.snowy.windy.hot.dry
 NumberOfEvents=0
