@@ -26,9 +26,9 @@ BrassKnuckles / Machete / Cheap_Katana /  Magnum / Glock19 / AK47 / UZI MP5 / De
 ## To be done:
 
 - Will add new currency, red/black orbs will be replaced with Bitcoin and Litecoin.
-- Ability to use certain items while not in a battle will be added.
-- New Battlefields will be created parallel to existing ones for Campbellton, meaning seperate channels for seperate cities in New Brunswick. Seperate bots will be used for each city.
-- Monsters will become more unique to each battlefield. 
+-  Ability to use certain items while not in a battle will be added.
+- New Battlefields will be created parallel to existing ones for Campbellton, meaning separate channels for separate cities in New Brunswick. Separate bots will be used for each city.
+- Monsters will become more unique to each battlefield.
 
 ### SETUP
 
