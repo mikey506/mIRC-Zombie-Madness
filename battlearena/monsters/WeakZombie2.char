@@ -21,7 +21,7 @@ IgnitionGauge=2
 
 
 [Rage]
-RageBar=1
+RageBar=0
 RageCountDown=0
 
 
