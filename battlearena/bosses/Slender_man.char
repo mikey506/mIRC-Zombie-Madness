@@ -93,94 +93,94 @@
  ; 
  ; MOONPHASE is for if you want the monster to only appear during a certain moon phase. You can only list one. 
  ; Valid list is: Full Moon or Crescent Moon or Gibbous Moon or New Moon or Quarter Moon or Blood Moon  (with the spaces) 
-87 ; Moonphase= 
-88 ; 
-89 ; TIMEOFDAY is for if you want the monster to only appear during certain times of days (game time, not real life) 90 ; Valid list is: Morning, Noon, Evening and Night. 
-91 ; TimeOfDay=Night 
-92 ; 
-93 ; Can the monster taunt?   Assumed to be true if blank. 
-94 ; CANTAUNT=true 
-95 ; 
-96 ; TAUNTFILE is an optional taunt file if you want your boss to have unique taunts.  If blank it will use the default taunts.txt 
-97 ; TAUNTFILE= 
-98 ; 
-99 ; GUARDIAN is a monster that covers the boss. While the monster is alive the boss will take no damage from items/techs/attacks 
-100 ; Guardian= 
-101 ; 
-102 ; JUSTRELEASEDEFENSE is to block "Just Release" the # is a percent of the damage blocked. 0 = no block, 100 = 100% blocked 
-103 ; JustReleaseDefense= 
-104 ; 
-105 ; HURTBYTAUNT is a special flag. If set to true, taunts done against this boss will deal damage. 
-106 ; HurtByTaunt=true/false 
-107 ; 
-108 ; HEALBYTAUNT is a special flag. If set to true, taunts done against this boss will heal damage.  
-109 ; HealByTaunt=true/false 
-110 ; 
-111 ; Does the monster appear in President battles? True=yes/False=no 
-112 ; IgnorePresident=no 
-113 ; 
-114 ; IMMUNETOMAGIC= is to determine if a boss is completely immune to magic or not. True/false. 
-115 ; ImmuneToMagic=false 
-116 ; 
-117 ; DEATHCONDITIONS= if you want the boss to only only if a certain action is performed, you can set it here. Not set by default. 
-118 ; Valid conditions are: melee, magic, tech, item, renkei, status, magiceffect 
-119 ; You can list multiple by putting a period inbetween such as: melee.magic.status  
-120 ; If the boss is killed by something that isn't the death condition, it'll be revived until killed with the condition. 
-121 ; DeathConditions= 
-122 
+ ; Moonphase= 
+ ; 
+ ; TIMEOFDAY is for if you want the monster to only appear during certain times of days (game time, not real life) 90 ; Valid list is: Morning, Noon, Evening and Night. 
+ ; TimeOfDay=Night 
+ ; 
+ ; Can the monster taunt?   Assumed to be true if blank. 
+ ; CANTAUNT=true 
+ ; 
+ ; TAUNTFILE is an optional taunt file if you want your boss to have unique taunts.  If blank it will use the default taunts.txt 
+ ; TAUNTFILE= 
+ ; 
+ ; GUARDIAN is a monster that covers the boss. While the monster is alive the boss will take no damage from items/techs/attacks 
+ ; Guardian= 
+ ; 
+ ; JUSTRELEASEDEFENSE is to block "Just Release" the # is a percent of the damage blocked. 0 = no block, 100 = 100% blocked 
+ ; JustReleaseDefense= 
+ ; 
+ ; HURTBYTAUNT is a special flag. If set to true, taunts done against this boss will deal damage. 
+ ; HurtByTaunt=true/false 
+ ; 
+ ; HEALBYTAUNT is a special flag. If set to true, taunts done against this boss will heal damage.  
+ ; HealByTaunt=true/false 
+ ; 
+ ; Does the monster appear in President battles? True=yes/False=no 
+ ; IgnorePresident=no 
+ ; 
+ ; IMMUNETOMAGIC= is to determine if a boss is completely immune to magic or not. True/false. 
+ ; ImmuneToMagic=false 
+ ; 
+ ; DEATHCONDITIONS= if you want the boss to only only if a certain action is performed, you can set it here. Not set by default. 
+ ; Valid conditions are: melee, magic, tech, item, renkei, status, magiceffect 
+ ; You can list multiple by putting a period inbetween such as: melee.magic.status  
+ ; If the boss is killed by something that isn't the death condition, it'll be revived until killed with the condition. 
+ ; DeathConditions= 
  
-123 [monster] 
-124 ; Type is the type of monster it is.  
-125 type=Horror  
-126 
  
-127 ; TechLearn is a special flag where if it's hit by a tech, it will become immune to that tech for the rest of the battle. 
-128 ; Change it to "true" to turn it on. 
-129 TechLearn=false 
-130 
+ [monster] 
+ ; Type is the type of monster it is.  
+ type=Horror  
  
-131 ; Size is the size of the monster. Small/Medium/Large 
-132 size=large
-133 
  
-134 [Status] 
-135 Poison=no 
-136 HeavyPoison=no 
-137 Regenerating=no 
-138 Blind=no 
-139 Frozen=no 
-140 Shock=no 
-141 Burning=no 
-142 Drowning=no 
-143 Earth-quake=no 
-144 Heavy-Poison=no 
-145 silence=no 
-146 intimidated=no 
-147 weight=no 
-148 poison-heavy=no 
-149 virus=no 
-150 virus.timer=1 
-151 charmed=no 
-152 charmer=noonethatIknowlol 
-153 charm.timer=1 
-154 amnesia=no 
-155 paralysis=no 
-156 amnesia.timer=1 
-157 paralysis.timer=1 
-158 tornado=no 
-159 drunk=no 
-160 drunk.timer=1 
-161 zombie=no 
-162 slow=no 
-163 sleep=no 
-164 stun=no 
-165 MPRegenerating=no 
-166 
+ ; TechLearn is a special flag where if it's hit by a tech, it will become immune to that tech for the rest of the battle. 
+ ; Change it to "true" to turn it on. 
+ TechLearn=false 
  
-167 [Weapons] 
-168 Equipped=tentacles 
-169 monsterweaponname=tentacles
-170 
+ 
+ ; Size is the size of the monster. Small/Medium/Large 
+ size=large
+ 
+ 
+ [Status] 
+ Poison=no 
+ HeavyPoison=no 
+ Regenerating=no 
+ Blind=no 
+ Frozen=no 
+ Shock=no 
+ Burning=no 
+ Drowning=no 
+ Earth-quake=no 
+ Heavy-Poison=no 
+ silence=no 
+ intimidated=no 
+ weight=no 
+ poison-heavy=no 
+ virus=no 
+ virus.timer=1 
+ charmed=no 
+ charmer=noonethatIknowlol 
+ charm.timer=1 
+ amnesia=no 
+ paralysis=no 
+ amnesia.timer=1 
+ paralysis.timer=1 
+ tornado=no 
+ drunk=no 
+ drunk.timer=1 
+ zombie=no 
+ slow=no 
+ sleep=no 
+ stun=no 
+ MPRegenerating=no 
+ 
+ 
+ [Weapons] 
+ Equipped=tentacles 
+ monsterweaponname=tentacles
+ 
  
  
  
