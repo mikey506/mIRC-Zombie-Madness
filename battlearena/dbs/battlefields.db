@@ -198,3 +198,14 @@ scavenge=
 weather=bright.hot.gloomy
 NumberOfEvents=0
 scavenge=
+
+[Sugarloaf Mountain snow]
+weather=bright.cold.gloomy.snowstorm.windy
+NumberOfEvents=1
+scavenge=
+
+event1=damage
+event1Chance=90
+Event1Desc=%real.name gets attacked by a big Zombie abominable snowman from the moutain $+ ! ... %real.name takes a beating but gets back up and runs away.
+Event1Target=random
+event1Amount=$rand(50,100)
