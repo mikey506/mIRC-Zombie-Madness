@@ -12,7 +12,7 @@ IgnitionGauge=2
 [Battle]
 Hp=90
 Tp=50
-Str=30
+Str=31
 Def=10
 Int=10
 Spd=10
