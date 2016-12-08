@@ -67,6 +67,7 @@ Scythes=DeathScythe
 GreatSwords=
 Axes=Wood_Splitter
 Daggers=PocketKnife.DualPocketKnifes
+snow=snow_ball
 
 MonsterWpns=DecayingTeeth.MeatCleaver.LargeWrench
 
@@ -298,3 +299,19 @@ Info=You can't buy this!
 Abilities=none
 Hits=2
 BasePower=$rand(0,3)
+
+[snowball]
+Cost=1
+Type=HandToHand
+Info=Thes snow balls will make u chillin
+Abilities=none
+Element=ice
+Hits=$rand(3-5)
+BasePower=2
+Upgrade=25
+IgnoreDefense=15
+HurtEthereal=false
+2Handed=false
+EnergyCost=0
+CanShieldReflect=false
+CanCounter=false
