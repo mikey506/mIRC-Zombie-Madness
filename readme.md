@@ -17,7 +17,7 @@ Downtown Water Street / Cemetary Road / Atholville Mill / Atholville Mall / Rasp
 
 ## Monsters added:
 
-BobTheKiller / Delusional_Maniac / HalfZombie / Maniac / Orb_Fountain / RottenBlogger / RottenZombie	/ SickZombie /  WeakZombie / WeakZombie2 / WeakZombie3 / ZombiePitBull 
+BobTheKiller / Delusional_Maniac / HalfZombie / Maniac / Orb_Fountain / RottenBlogger / RottenZombie	/ SickZombie /  WeakZombie / WeakZombie2 / WeakZombie3 / ZombiePitBull / Nightmare
 
 ## Weapons Added:
 
