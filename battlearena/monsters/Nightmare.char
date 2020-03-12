@@ -117,7 +117,7 @@ type=
 TechLearn=false
 
 ; Size is the size of the monster. Small/Medium/Large
-size=
+size=Medium
 
 
 [Status]
